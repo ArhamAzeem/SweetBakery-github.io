@@ -1,0 +1,282 @@
+header {
+    text-align: center;
+    background-color: red;
+    /* padding: 10px; */
+    color: white;
+    height: 50px;
+    width: 100%;
+
+}
+
+header h6 {
+    line-height: 50px;
+}
+
+.navbar ul li a {
+    font-size: large;
+}
+
+.navbar ul i {
+    margin-top: 10px;
+    margin-right: 40px;
+    font-size: 40px;
+    padding-left: 15px;
+}
+
+
+
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bannerr img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* SECTION */
+
+.sec {
+    background-color: red;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+
+}
+
+.sec a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 30%;
+    width: 120px;
+    height: 35px;
+    transition: 0.8s;
+
+
+}
+
+.sec a:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    font-style: italic;
+    font-weight: bold;
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+
+/* SECTION */
+
+.menubar {
+    background-color: white;
+    transform: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menubar .back {
+    transition: 0.8s;
+}
+
+.menubar a {
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    color: red;
+    text-decoration: none;
+}
+
+.menubar i {
+    font-size: 100px;
+    /* margin-left: 127px; */
+    color: red;
+    transition: 2s;
+}
+
+
+i:hover {
+    background-color: black;
+
+
+    border: 2px solid red;
+    /* border-radius: 50px; */
+    transform: scale(1.1);
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
+
+
+.images a img {
+    height: 100px;
+
+}
+
+/* .menubar img:hover{
+    background-color: red;
+    border: 3px solid red;
+} */
+
+
+
+
+/* .menubar:hover.back{
+    background-color: black;
+}
+.back:hover{
+    background-color: black;
+    height: 100%;
+    width: 10px;
+    color: red;
+
+} */
+
+.nimbanner h3 {
+    text-align: center;
+    margin-top: 120px;
+    font-family: sans-serif;
+    color: red;
+    padding-left: 70px;
+    font-size: 25px;
+    margin-bottom: -20px;
+
+
+
+
+}
+
+.nimbanner h1 {
+    text-align: center;
+    padding-left: 70px;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 85px;
+
+
+}
+
+.breadbanner h1 {
+    text-align: center;
+    padding-left: 70px;
+    color: red;
+    font-family: sans-serif;
+    font-size: 85px;
+    margin-top: 180px;
+    font-weight: bolder;
+
+
+}
+
+.breadbanner img {
+    margin-top: 50px;
+    mix-blend-mode: color-burn;
+    mix-blend-mode: darken;
+}
+
+.savbanner h1 {
+    text-align: center;
+    padding-left: 70px;
+    color: red;
+    font-family: sans-serif;
+    font-size: 75px;
+    margin-top: 120px;
+    font-weight: bolder;
+
+}
+
+.savbanner img {
+    margin-top: 50px;
+    mix-blend-mode: color-burn;
+    mix-blend-mode: darken;
+}
+
+
+
+/* CARDS */
+
+.cardstyle {
+    /* background-color: black; */
+
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 48px;
+
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    transition: 1s;
+
+
+
+}
+
+.cardstyle:hover {
+    border: 3px solid red;
+    transform: scale(1.1);
+
+
+}
+
+.cardimg {
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 20px;
+    mix-blend-mode: color-burn;
+}
+
+.card {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+
+}
+
+.card-text {
+    font-size: 12px;
+
+}
+
+.card-price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn {
+    border-radius: 20px;
+    width: 200px;
+    margin-left: 10px;
+}
+
+.btn:hover {
+    font-size: small;
+}
+
+    
